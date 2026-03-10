@@ -2,8 +2,8 @@
 Complete workflow: PDF extraction → Database creation → Search
 """
 
-from pdf_extractor import MALDIFigureExtractor
-from database_builder import MALDIDatabase
+from database_build.pdf_extractor import MALDIFigureExtractor
+from database_build.database_builder import MALDIDatabase
 
 # Step 1: Extract MALDI figures from PDFs
 print("=" * 60)
